@@ -1,0 +1,13 @@
+{
+  "gamblermod:joker" :
+  {
+    "NAME": "The Joker",
+
+    "DESCRIPTIONS" : [
+      "After drawing cards at the start of your turn, gain an additional card for your highest poker hand based on Suit (Card Type) and Rank (Cost)."
+    ],
+
+    "FLAVOR" : "The favorite card of cheaters around the world, this enchanted card grants more than just good luck."
+  }
+
+}

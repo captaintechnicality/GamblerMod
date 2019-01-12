@@ -1,0 +1,10 @@
+{
+  "modid": "gamblermod",
+  "name": "Gambler Mod",
+  "author_list": ["captaintechnicality"],
+  "description": "Adds a new class to Slay the Spire called The Gambler. The class focuses on cards and relics which gain bonus from poker hands.",
+  "version": "0.1.0",
+  "sts_version": "01-03-2019",
+  "mts_version": "3.7.4",
+  "dependencies": ["basemod"]
+}

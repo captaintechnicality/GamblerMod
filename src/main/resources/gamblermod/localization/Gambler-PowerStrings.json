@@ -1,0 +1,8 @@
+{
+  "gamblermod:AceHeartsPower": {
+    "NAME": "Ace of Hearts",
+
+    "DESCRIPTIONS": ["For each power in your hand at the start of your turn, draw ",
+      " card."]
+  }
+}
