@@ -8,8 +8,9 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.localization.RelicStrings;
-import gamblermod.cards.*;
 import gamblermod.cards.attacks.*;
+import gamblermod.cards.powers.AceHearts;
+import gamblermod.cards.powers.SmuggleCards;
 import gamblermod.cards.skills.*;
 import gamblermod.character.GamblerCharacter;
 import gamblermod.enumPatches.AbstractCardEnum;
@@ -44,6 +45,8 @@ public class GamblerMod implements EditCardsSubscriber, EditStringsSubscriber, E
         // TENS
         BaseMod.addCard(new TenClubs());
         BaseMod.addCard(new TenDiamonds());
+        // MISC POWERS
+        BaseMod.addCard(new SmuggleCards());
     }
 
     @Override

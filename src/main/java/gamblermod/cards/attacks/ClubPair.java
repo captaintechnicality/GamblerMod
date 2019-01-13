@@ -27,7 +27,7 @@ public class ClubPair extends CustomCard {
     public ClubPair(int Value)
     {
         super( ID , NAME, IMG_PATH, COST, DESCRIPTION,
-                AbstractCard.CardType.ATTACK, AbstractCardEnum.Gambler_CHECKERBOARD,
+                AbstractCard.CardType.ATTACK, CardColor.COLORLESS,
                 CardRarity.SPECIAL, AbstractCard.CardTarget.ENEMY);
         PairValue = Value;
         this.baseDamage = PairValue + 1;

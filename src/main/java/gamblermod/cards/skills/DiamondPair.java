@@ -26,7 +26,7 @@ public class DiamondPair extends CustomCard {
     public DiamondPair(int Value)
     {
         super( ID , NAME, IMG_PATH, COST, DESCRIPTION,
-                CardType.SKILL, AbstractCardEnum.Gambler_CHECKERBOARD,
+                CardType.SKILL, CardColor.COLORLESS,
                 CardRarity.SPECIAL, CardTarget.SELF);
         PairValue = Value;
         this.baseBlock = PairValue;
