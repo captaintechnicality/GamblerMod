@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import gamblermod.cards.attacks.*;
 import gamblermod.cards.powers.AceHearts;
+import gamblermod.cards.powers.HeartOfGold;
 import gamblermod.cards.powers.SmuggleCards;
 import gamblermod.cards.skills.*;
 import gamblermod.character.GamblerCharacter;
@@ -47,6 +48,7 @@ public class GamblerMod implements EditCardsSubscriber, EditStringsSubscriber, E
         BaseMod.addCard(new TenDiamonds());
         // MISC POWERS
         BaseMod.addCard(new SmuggleCards());
+        BaseMod.addCard(new HeartOfGold());
     }
 
     @Override

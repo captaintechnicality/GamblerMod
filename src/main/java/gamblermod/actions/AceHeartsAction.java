@@ -31,7 +31,6 @@ public class AceHeartsAction extends AbstractGameAction
     {
         AbstractPlayer player = AbstractDungeon.player;
         CardGroup hand = player.hand;
-        ArrayList<Pair<PokerHandCheck.Suit, Integer>> pokerHand = new ArrayList<>();
         int powers = 0;
         for(AbstractCard card : hand.group)
         {

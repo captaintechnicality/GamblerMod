@@ -11,5 +11,11 @@
 
     "DESCRIPTIONS" : ["At the start of your turn, discard ", "the top card of your deck, draw cards equal to its cost.",
                       " cards from the top of your deck, draw cards equal to their cost."]
+  },
+
+  "gamblermod:HeartOfGoldPower": {
+    "NAME": "Heart Of Gold",
+
+    "DESCRIPTIONS" : ["At the start of your turn, pay ", " gold and draw ", " cards."]
   }
 }
